@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"id": "macraft",
 	"version": "${version}",
-	"name": "Example mod",
+	"name": "MaCraft",
 	"description": "Add some magic to your minecraft",
 	"authors": [
 		"AnatolySperansky"
@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.MaCraft"
+			"com.macraft.MaCraft"
 		],
 		"client": [
-			"com.example.MaCraftClient"
+			"com.macraft.MaCraftClient"
 		]
 	},
 	"mixins": [
