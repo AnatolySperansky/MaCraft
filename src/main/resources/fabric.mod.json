@@ -2,16 +2,16 @@
 	"schemaVersion": 1,
 	"id": "macraft",
 	"version": "${version}",
-	"name": "MaCraft",
+	"name": "Ma Craft",
 	"description": "Add some magic to your minecraft",
 	"authors": [
-		"AnatolySperansky"
+		"Anatoly Speransky"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/modid/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -23,9 +23,9 @@
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"macraft.mixins.json",
 		{
-			"config": "modid.client.mixins.json",
+			"config": "macraft.client.mixins.json",
 			"environment": "client"
 		}
 	],

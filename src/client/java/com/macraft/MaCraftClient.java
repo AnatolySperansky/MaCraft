@@ -1,4 +1,4 @@
-package com.example;
+package com.macraft;
 
 import net.fabricmc.api.ClientModInitializer;
 public class MaCraftClient implements ClientModInitializer {
