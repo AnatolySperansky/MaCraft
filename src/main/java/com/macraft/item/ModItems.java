@@ -12,10 +12,12 @@ import net.minecraft.item.ItemGroups;
 
 public class ModItems{
     public static final Item MANACRYSTAL = registerItem("manacrystal", new Item(new FabricItemSettings()));
+    public static final Item MANAPOWDER = registerItem("manapowder", new Item(new FabricItemSettings()));
     
 
     private static void addItemsToIngridientItemGroup(FabricItemGroupEntries entries){
         entries.add(MANACRYSTAL);
+        entries.add(MANAPOWDER);
     }
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM,  new Identifier(MaCraft.MOD_ID, name), item);

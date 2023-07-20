@@ -1,6 +1,8 @@
 {
 "item.macraft.manacrystal": "Mana Crystal",
-"item.macraft.manacrystal_ore": "Mana Crystal Ore"
+"item.macraft.manapowder": "Mana Powder",
+"block.macraft.manacrystal_ore": "Mana Crystal Ore",
+"itemgroup.manacrystal_group": "Mana"
 
 
 
