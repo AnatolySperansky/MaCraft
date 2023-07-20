@@ -14,13 +14,14 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
-    public static final Block MANACRYSTAL_ORE = registerBlock("manacrystal_ore",
+
+
+    public static final Block MAWORKBENCH = registerBlock("maworkbench",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
-    //private static void addBlocksToBlocksItemGroup(FabricItemGroupEntries entries){
-    //    entries.add(MANACRYSTAL_ORE);
-    //}
 
+    public static final Block MANACRYSTAL_ORE = registerBlock("manacrystal_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
 
     private static Block registerBlock(String name, Block block) {

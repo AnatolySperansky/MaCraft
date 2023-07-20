@@ -18,6 +18,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.MANACRYSTAL)).entries((displayContext, entries) -> {
                         entries.add(ModItems.MANACRYSTAL);
                         entries.add(ModBlocks.MANACRYSTAL_ORE);
+                        entries.add(ModBlocks.MAWORKBENCH);
             }).build());
         public static void registerItemGroups() {
 

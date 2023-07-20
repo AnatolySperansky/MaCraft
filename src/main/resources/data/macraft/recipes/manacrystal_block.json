@@ -1,0 +1,16 @@
+{
+    "type": "minecraft.crafting_shaped",
+    "pattern": [
+        "MMM",
+        "MMM",
+        "MMM"
+      ],
+    "key": {
+        "M": {
+          "items": "macraft.manacrystal"
+        }
+      },
+    "category": "building",
+    "result": "macraft.manacrystal_ore",
+    "count": "1"
+}
