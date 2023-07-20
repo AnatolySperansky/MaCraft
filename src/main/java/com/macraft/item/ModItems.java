@@ -20,7 +20,7 @@ public class ModItems{
         return Registry.register(Registries.ITEM,  new Identifier(MaCraft.MOD_ID, name), item);
     }
     public static void registerModItems(){
-        MaCraft.LOGGER.info("registeringmoditems" + MaCraft.MOD_ID);
+        MaCraft.LOGGER.info("Registering Mod Items for " + MaCraft.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngridientItemGroup );
     }
