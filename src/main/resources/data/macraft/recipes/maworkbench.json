@@ -10,10 +10,11 @@
           "tag": "minecraft:logs"
         },
         "M": {
-          "items": "macraft.manacrystal"
+          "item": "macraft.manacrystal"
         }
       },
-    "category": "building",
-    "result": "macraft.maworkbench",
-    "count": "1"
+    "result": {
+      "item": "macraft:maworkbench",
+      "count": "1"
+    }
 }

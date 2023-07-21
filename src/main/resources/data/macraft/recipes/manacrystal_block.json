@@ -7,10 +7,12 @@
       ],
     "key": {
         "M": {
-          "items": "macraft.manacrystal"
+          "items": "macraft:manacrystal"
         }
       },
     "category": "building",
-    "result": "macraft.manacrystal_ore",
+    "result": {
+      "item": "macraft:manacrystal_block"
+    },
     "count": "1"
 }
