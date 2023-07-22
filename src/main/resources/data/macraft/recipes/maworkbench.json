@@ -1,16 +1,16 @@
 {
-    "type": "minecraft.crafting_shaped",
+    "type": "minecraft:crafting_shaped",
     "pattern": [
         "WWW",
         "WMW",
         "WWW"
-      ],
+    ],
     "key": {
         "W": {
           "tag": "minecraft:logs"
         },
         "M": {
-          "item": "macraft.manacrystal"
+          "item": "macraft:manacrystal"
         }
       },
     "result": {

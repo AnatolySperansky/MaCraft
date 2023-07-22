@@ -20,6 +20,9 @@
 		],
 		"client": [
 			"com.macraft.MaCraftClient"
+		],
+		"fabric-datagen": [
+			"com.macraft.MaCraftDataGenerator"
 		]
 	},
 	"mixins": [
